@@ -72,7 +72,6 @@ input.onLogoEvent(TouchButtonEvent.Released, function () {
     if (initialised) {
         basic.clearScreen()
         basic.showNumber(level)
-        basic.pause(1000)
         light2(level)
     }
 })
